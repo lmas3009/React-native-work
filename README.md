@@ -7,7 +7,7 @@ Outcome for each day:
 
 
 # Day1:
-   Leanerd:
+   Learned:
    
    	1. How to use states and props
 	
@@ -16,4 +16,10 @@ Outcome for each day:
 	3. How to use Buttons
 	
 	4. How to use Touchables in React native
+
+  Day1 Project:
+  
+  	This is used to change the color of a box by the user input 
 	
+	![photo_2020-08-06_21-09-14](https://user-images.githubusercontent.com/60876387/89551888-18d39680-d829-11ea-90e2-e683d5d753ce.jpg)
+
