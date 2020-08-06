@@ -21,5 +21,5 @@ Outcome for each day:
   
   	This is used to change the color of a box by the user input 
 	
-	![photo_2020-08-06_21-09-14](https://user-images.githubusercontent.com/60876387/89551888-18d39680-d829-11ea-90e2-e683d5d753ce.jpg)
+	https://user-images.githubusercontent.com/60876387/89551888-18d39680-d829-11ea-90e2-e683d5d753ce.jpg
 
