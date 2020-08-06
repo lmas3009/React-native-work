@@ -13,7 +13,7 @@ Outcome for each day:
 	
 	2. How to use Heights and Widths by StyleSheet
 	
-	3. How to use Buttons
+	3. How to use Buttons and Textinput
 	
 	4. How to use Touchables in React native
 
