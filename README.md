@@ -2,8 +2,6 @@
 
 # #100DaysOfCode challenge
 
-Outcome for each day:
-	by end of each day a project will be submit with all the topics done at a particular day
 
 
 # Day1:
@@ -37,4 +35,11 @@ Outcome for each day:
 	
 	https://user-images.githubusercontent.com/60876387/89669002-57865100-d8fc-11ea-97a1-001c88f34768.jpg
 	https://user-images.githubusercontent.com/60876387/89669000-56edba80-d8fc-11ea-95f9-6832cfe49143.jpg
+
+# Day3:
+  Learned:
+	
+	1. How to use FlatList
+	2. How to use Image,Imagebackground
+
 
