@@ -56,4 +56,6 @@
   Learned:
   
   	1. Learning more about flex,Textinput,button,icons,if condition
+	
+	2. Learning ListView.
 
