@@ -50,5 +50,10 @@
 # Day5:
   Learned:
   	
-	1.How to use Flex,FlexDirection,
+	1. How to use Flex,FlexDirection
+
+# Day6:
+  Learned:
+  
+  	1. Learning more about flex,Textinput,button,icons,if condition
 
