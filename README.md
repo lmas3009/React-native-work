@@ -59,3 +59,7 @@
 	
 	2. Learning ListView.
 
+# Day7 & 8:
+  Learned:
+  
+  	1. Learning more about SectionList,FlatList,ScrollView  
