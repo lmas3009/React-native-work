@@ -63,3 +63,14 @@
   Learned:
   
   	1. Learning more about SectionList,FlatList,ScrollView  
+
+# Day9 - 12:
+  Learned:
+  	
+	1.Passing the parameters to other file
+	
+	2. Read all the looping statements
+	
+  Project:
+  
+  	1. Made a Calculator
