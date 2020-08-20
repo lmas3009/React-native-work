@@ -74,3 +74,10 @@
   Project:
   
   	1. Made a Calculator
+	
+# Day13-16:
+  Learned:
+  	
+	1.Progress bar, Animated Progress bar
+	
+	2. Navigations between screens
