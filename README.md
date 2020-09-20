@@ -1,8 +1,5 @@
 # React-native-work
 
-# #100DaysOfCode challenge
-
-
 
 # Day1:
    Learned:
