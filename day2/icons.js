@@ -118,3 +118,170 @@ const styles = StyleSheet.create({
         fontSize: 20
     },
 })
+
+
+
+Using Social Icons:
+
+import * as React from 'react';
+import { Text, View, StyleSheet,TouchableOpacity } from 'react-native';
+import Constants from 'expo-constants';
+import {SocialIcon} from 'react-native-elements'
+import {} from 'react-native-vector-icons'
+
+export default class App extends React.Component {
+
+  constructor(params){
+    super(params);
+    this.state={
+    validate: false,
+    validate1: false,
+    validate2: false
+  }
+  }
+
+render(){
+  return (
+    <View style={styles.container}>
+      <Text style={styles.paragraph}>
+       Social Icons
+      </Text>
+      <View style={{flexDirection:'row',alignItems:'center',justifyContent:'center'}}>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="facebook"
+          light
+        />
+        <Text>Facebook</Text>
+        </View>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="google"
+          raised={false}
+        />
+        <Text>Google</Text>
+        </View>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="twitter"
+        />
+        <Text>Twitter</Text>
+        </View>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="github"
+          onPress={
+            <SocialIcon 
+            loading={true}/>
+          }
+        />
+        <Text>Github</Text>
+        </View>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="pinterest"
+        />
+        <Text>Pinterest</Text>
+        </View>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="linkedin"
+        />
+        <Text>Linkedin</Text>
+        </View>
+        <View style={{justifyContent:'center',alignItems:'center'}}>
+        <SocialIcon 
+          type="gitlab"
+        />
+        <Text>Git Lab</Text>
+        </View>
+        <View style={{flexDirection:'column'}}>
+          {!this.state.validate ? <SocialIcon 
+          type="twitter"
+          title="Login Using Twitter"
+          button
+          style={{width: 250}}
+          onPress={()=>{
+            this.setState({validate:true}),
+            alert("Login Using Twitter")
+          }
+          }
+        />: <SocialIcon 
+          type="twitter"
+          title="Login Using Twitter"
+          button
+          loading
+          style={{width: 250}}
+          onPress={()=>{
+            this.setState({validate:false}),
+            alert("Cancel the authentication")
+          }
+          }
+            />}
+            {!this.state.validate1 ? <SocialIcon 
+          type="google"
+          title="Login Using Google"
+          button
+          style={{width: 250}}
+          onPress={()=>{
+            this.setState({validate1:true}),
+            alert("Login Using Google")
+          }
+          }
+        />: <SocialIcon 
+          type="google"
+          title="Login Using Google"
+          button
+          loading
+          style={{width: 250}}
+          onPress={()=>{
+            this.setState({validate1:false}),
+            alert("Cancel the authentication")
+          }
+          }
+            />}
+            {!this.state.validate2 ? <SocialIcon 
+          type="facebook"
+          title="Login Using Facebook"
+          button
+          style={{width: 250}}
+          onPress={()=>{
+            this.setState({validate2:true}),
+            alert("Login Using Facebook")
+          }
+          }
+        />: <SocialIcon 
+          type="facebook"
+          title="Login Using Facebook"
+          button
+          loading
+          style={{width: 250}}
+          onPress={()=>{
+            this.setState({validate2:false}),
+            alert("Cancel the authentication")
+          }
+          }
+            />}
+        </View>
+      </View>
+       
+    </View>
+  );
+}
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    paddingTop: Constants.statusBarHeight,
+    backgroundColor: '#ecf0f1',
+    padding: 8,
+  },
+  paragraph: {
+    margin: 24,
+    fontSize: 18,
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+});
